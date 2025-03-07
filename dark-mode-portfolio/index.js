@@ -23,8 +23,8 @@ window.onload = function() {
     function goDark() {
         body.style.backgroundImage = "linear-gradient(180deg, #10091d 0%, #28193d 100%)";
         body.style.color = "#ffffff"
-        gradient.setAttribute("src", "/images/dark-bg.png");
-        logo.setAttribute("src", "/images/logo-light.png");
+        gradient.setAttribute("src", "./images/dark-bg.png");
+        logo.setAttribute("src", "./images/logo-light.png");
         portrait.style.filter = "grayscale(1) brightness(0.7)";
         darkModeDay.style.color = "#ffffff4d";
         darkModeNight.style.color = "#ffffff";
@@ -34,8 +34,8 @@ window.onload = function() {
     function goLight() {
        body.style.backgroundImage = "linear-gradient(180deg, #e7f0f8 0%, #ffffff 100%)"; 
        body.style.color = "#262626";
-       gradient.setAttribute("src", "/images/light-bg.png");
-       logo.setAttribute("src", "/images/logo-dark.png");
+       gradient.setAttribute("src", "./images/light-bg.png");
+       logo.setAttribute("src", "./images/logo-dark.png");
        portrait.style.filter = "unset";
        darkModeDay.style.color = "#262626";
        darkModeNight.style.color = "#2626268d"
